@@ -14,7 +14,7 @@ const interests = [
   { icon: '🤖', label: 'Large Language Models' },
   { icon: '📚', label: 'Retrieval-Augmented Generation' },
   { icon: '🔬', label: 'Deep Neural Networks' },
-  { icon: '🎮', label: 'Reinforcement Learning' },
+  { icon: '🎮', label: 'Machine Learning' },
 ];
 
 export default function Home() {

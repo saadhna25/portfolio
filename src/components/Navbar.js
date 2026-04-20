@@ -19,27 +19,11 @@ export default function Navbar() {
           <span className="logo-name">Saadhna</span>
           <span className="logo-bracket">/&gt;</span>
         </NavLink>
-
         <div className="navbar-links">
-          <NavLink
-            to="/"
-            className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
-            end
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/projects"
-            className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
-          >
-            Projects
-          </NavLink>
-          <a
-            href="mailto:saadhna@example.com"
-            className="nav-cta"
-          >
-            Hire Me
-          </a>
+          <NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} end>Home</NavLink>
+          <NavLink to="/projects" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Projects</NavLink>
+          <NavLink to="/resume" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>Resume</NavLink>
+          <a href="mailto:soman.saadhna@gmail.com" className="nav-cta">Hire Me</a>
         </div>
       </div>
     </nav>
